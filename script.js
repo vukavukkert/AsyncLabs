@@ -28,7 +28,7 @@ function createCounter(n) {
             };
             this.stop = function () {
                 this.pause();
-                this.counter = 0;
+                this.counter = this.seconds;
             };
         }
     }
